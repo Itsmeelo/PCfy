@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  src: url(fonts/HelveticaNeue.ttc);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*<<<<<<Landing page style>>>>>>>>>>>>>>>>>>>>>>>*/
+.mmain-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.main-contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.logo {
+  background-image: url(images/LOGO-02\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 122px;
+  height: 18px;
+  /* border: 1px solid yellow; */
+  margin-bottom: 5.3125rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mpic1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7.6875rem;
+}
+
+.btn1 {
+  width: 24.1875rem;
+  height: 3.75rem;
+  /* border: 1px solid yellowgreen; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.625rem;
+  background: #62a1eb;
+  border-radius: 8px;
+}
+
+.btn1 span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.btn1:hover {
+  background: #317ad0;
+}
+
+.btn1:focus {
+  background: #1a5dab;
+}
+
+.btn2 {
+  margin: auto;
+  background: #62a1eb;
+  border-radius: 8px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 24.1875rem;
+  height: 3.75rem;
+}
+
+.btn2 span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/*<<<<<<<<<<<<<Employee info page style>>>>>>>>>>>>>>>>>>>*/
+.m2div {
+  width: 100%;
+  height: 100vh;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
